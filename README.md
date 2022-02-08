@@ -1,5 +1,5 @@
 # IIS-RestrictedAddressList
-PowerShell script to export the IIS IP Address and Domain Restriction settings to a text list
+PowerShell script to export the IIS IP Address and Domain Restriction settings to a text list.
 
 ## Introduction
 If you're a web administrator and you often work with Internet Information Services (IIS), you most likely already know about the IP Address and Domain Restrictions, a great built-in feature of IIS8 that allows to selectively allow or deny access to the web server, websites, folders or files that makes your server more secure.
