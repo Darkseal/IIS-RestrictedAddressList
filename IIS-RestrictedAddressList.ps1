@@ -1,3 +1,14 @@
+# ===============================================================================================
+# IIS - Restricted Address List
+# PowerShell script to export the IIS IP Address and Domain Restriction settings to a text list
+# -----------------------------------------------------------------------------------------------
+# (C) 2022, www.ryadel.com
+#
+# - GITHUB:  https://github.com/Darkseal/IIS-RestrictedAddressList
+# - WEBSITE: https://www.ryadel.com/en/iis-ip-address-and-domain-restriction-export
+# ===============================================================================================
+#
+
 $defaultExportFile = (Get-Item -Path '.\' -Verbose).FullName + "\" + "IPRestricted_ExportList.txt"
 [string]$SitesVar = Read-Host "Enter one or more websites, separated by ','"
 $exportFile = Read-Host "Enter the full export file name and path (default: '$defaultExportFile')"
