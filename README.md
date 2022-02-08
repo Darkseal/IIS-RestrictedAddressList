@@ -31,3 +31,6 @@ ipAddress="10.100.0.12" allowed="true"
 In the above file we can see the list for two different websites: **website1.example.com** and **website2.example.com**.
 
 We hope that this PowerShell script will be useful to other web administrators that need to export a list of the IP Address and Domain Restriction feature - just like I did!
+
+## Useful Links
+* Official Docs: https://www.ryadel.com/en/iis-ip-address-and-domain-restriction-export/
